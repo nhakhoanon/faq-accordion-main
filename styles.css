@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    padding: 10vh 0;
+    /* padding-top: 20vh;
+    padding-bottom: 10vh; */
+    background-color: hsl(275, 100%, 97%); 
+    min-height: 100vh;
+}
+
+main > img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.card {
+    position: relative;
+    width: 500px;
+    margin: 0px auto;
+    /* transform: translateY(-50%); */
+    background-color: white;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 15px;
+    padding: 3rem;
+}
+
+.card__title {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 5.2rem;
+    gap: 20px;
+}
+
+.card__content > div {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0px; 
+}
+
+.card__content h2 {
+    font-weight: 600;
+}
+
+.card__content h2:hover {
+    color: #ad28eb;
+}
+
+.card__content p {
+    max-height: 0;
+    overflow: hidden;
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+    font-size: 1.3rem;
+    margin-top: 0px;
+    line-height: 1.5;
+    transition: all 1s ease;
+}
+
+.card__content p.transfer {
+    max-height: 110px;
+    margin-top: 1.5rem;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid hsl(275, 100%, 97%);
+    margin: 1.5rem 0rem;
+    padding: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .card {
+        margin: 0 20px;
+    }
+}
+
+
+
