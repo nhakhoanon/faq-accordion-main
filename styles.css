@@ -18,7 +18,7 @@ main {
     justify-content: center;
     align-items: center; 
     position: relative;
-    padding: 10vh 0;
+    padding: 5vh 0;
     /* padding-top: 20vh;
     padding-bottom: 10vh; */
     background-color: hsl(275, 100%, 97%); 
@@ -33,7 +33,7 @@ main > img {
 
 .card {
     position: relative;
-    width: 550px;
+    width: 560px;
     margin: 0px auto;
     /* transform: translateY(-50%); */
     background-color: white;
@@ -42,7 +42,7 @@ main > img {
     flex-direction: column;
     gap: 30px;
     border-radius: 15px;
-    padding: 3rem;
+    padding: 3.5rem;
 }
 
 .card__title {
@@ -73,7 +73,7 @@ main > img {
     overflow: hidden;
     font-weight: 400;
     color: hsl(292, 16%, 49%);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-top: 0px;
     line-height: 1.5;
     transition: all 1s ease;
